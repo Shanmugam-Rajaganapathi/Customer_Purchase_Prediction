@@ -8,7 +8,7 @@ import os
 model_path = hf_hub_download(
     repo_id="ShanRaja/Customer-Purchase-Prediction",
     repo_type="model",
-    filename="best_customer_purchase_prediction_model_v1.joblib"
+    filename="best_customer_purchase_prediction_model_v2_23.joblib"
 )
 model = joblib.load(model_path)
 
